@@ -250,7 +250,6 @@ public class searchSymbl extends javax.swing.JFrame {
         btn_search = new javax.swing.JButton();
         jSeparator2 = new javax.swing.JSeparator();
         jSeparator3 = new javax.swing.JSeparator();
-        btn_search1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -689,7 +688,7 @@ public class searchSymbl extends javax.swing.JFrame {
                 txt_searchActionPerformed(evt);
             }
         });
-        jPanel1.add(txt_search, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 70, 601, 40));
+        jPanel1.add(txt_search, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 70, 601, 40));
 
         btn_search.setBackground(new java.awt.Color(41, 98, 255));
         btn_search.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
@@ -700,20 +699,9 @@ public class searchSymbl extends javax.swing.JFrame {
                 btn_searchActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_search, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 60, 210, 62));
+        jPanel1.add(btn_search, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 60, 210, 62));
         jPanel1.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 360, 1480, 20));
         jPanel1.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 520, 1480, 20));
-
-        btn_search1.setBackground(new java.awt.Color(41, 98, 255));
-        btn_search1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_search1.setForeground(new java.awt.Color(255, 255, 255));
-        btn_search1.setText("Search by name");
-        btn_search1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_search1ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(btn_search1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1170, 60, 250, 62));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -855,10 +843,6 @@ public class searchSymbl extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btn_searchActionPerformed
 
-    private void btn_search1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_search1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn_search1ActionPerformed
-
     private void btnHomeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnHomeMouseClicked
         // TODO add your handling code here:
         
@@ -949,7 +933,6 @@ public class searchSymbl extends javax.swing.JFrame {
     private javax.swing.JLabel btnSectorList;
     private javax.swing.JLabel btnViewAllSymbl;
     private javax.swing.JButton btn_search;
-    private javax.swing.JButton btn_search1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
